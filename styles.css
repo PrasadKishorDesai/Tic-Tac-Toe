@@ -75,6 +75,7 @@ nav {
     font-weight: bold;
 }
 
+/*
 .line {
     background: black;
     width: 0;
@@ -83,6 +84,7 @@ nav {
     background-color: red;
     transition: width 1s ease-in-out;
 }
+*/
 
 @media screen and (max-width: 900px)
 {

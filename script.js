@@ -33,8 +33,8 @@ const checkWin = () => {
             gameover = true;
             document.querySelector('#imgbox').getElementsByTagName('img')[0].style.width = "170px";
             
-            document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`
-            document.querySelector('.line').style.width = "20vw";
+            // document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`
+            // document.querySelector('.line').style.width = "20vw";
         }
     })
 };
@@ -66,6 +66,6 @@ reset.addEventListener('click', () => {
     document.getElementsByClassName('spaninfo')[0].innerText = "Turn of " + turn;
     gameover = false;
     document.querySelector('#imgbox').getElementsByTagName('img')[0].style.width = "0px";
-    document.querySelector('.line').style.width = "0vw";
+    // document.querySelector('.line').style.width = "0vw";
 })
 
